@@ -88,7 +88,7 @@ if uploaded_file is not None:
         temp_file.write(uploaded_file.read())
         temp_path = temp_file.name
 
-    st.image(uploaded_file, caption="Uploaded Coconut Tree", use_column_width=True)
+    st.image(uploaded_file, caption="Uploaded Coconut Tree", use_container_width=True)
 
     if st.button("🔍 Predict Age Group"):
         with st.spinner("Analyzing image and predicting age..."):
