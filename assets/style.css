@@ -1,0 +1,37 @@
+body {
+    background-color: #FFFBEA;
+    color: #3C3C1D;
+    font-family: "Poppins", sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: #3C3C1D;
+}
+
+.subtitle {
+    text-align: center;
+    color: #D97706;
+}
+
+.prompt, .footer {
+    text-align: center;
+    color: #6B6B4E;
+}
+
+.header {
+    color: #3C3C1D;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button, .stButton>button {
+    background-color: #556B2F !important;
+    color: white !important;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+button:hover, .stButton>button:hover {
+    background-color: #6B8E23 !important;
+}
